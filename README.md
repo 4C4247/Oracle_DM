@@ -1,9 +1,10 @@
 <h1>Super resolution of Oracle Bone Inscription image based on diffusion model</h1>
-<b>Authors</b>:Shibin Wang
-,Beigui Li
-,Xinyu Zhang
-,Yihang Li
-,Lu Yu
+<b>Authors</b>:[Shibin Wang]
+| [Beigui Li]
+| [Xinyu Zhang]
+| [Yihang Li]
+| [Lu Yu]
+
 
 
 <h2>How To Start？</h2>
