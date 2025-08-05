@@ -1,34 +1,36 @@
 <h1>Super resolution of Oracle Bone Inscription image based on diffusion model</h1>
-<b>Authors</b>:[Shibin Wang]
-| [Beigui Li]
-| [Xinyu Zhang]
-| [Yihang Li]
-| [Lu Yu]
+<b>Authors</b>:
+[Shibin Wang]<sup>1</sup>
+| [Beigui Li]<sup>2</sup>
+| [Xinyu Zhang]<sup>3</sup>
+| [Yihang Li]<sup>3</sup>
+| [Lu Yu]<sup>3</sup>
 
 
 
-<h2>How To Start？</h2>
-Dependencies and Installation
+#  🛠️ How To Start？
+## Dependencies and Installation
 
 In the project, we simplified the naming of Oracle_DM and named it OBSR
 
 - Pytorch >= 1.7.0
 - CUDA >= 11.0
 
-# git clone this repository
+## Git clone this repository
 git clone https://github.com/4C4247/Oracle_DM.git
 
 cd OBSR
 
-# create new anaconda env
+## Create new anaconda env
 conda create -n OBSR python=3.8
 
 conda activate OBSR
 
-# Install the required packages
+## Install the required packages
 pip install -r requirements.txt
 
 ## TODO
+- [x] Write a readme file for the project (continuously updated.....)
 - [ ] Add some details and supplementary materials.
 - [ ] Add inference scripts and checkpoint files.
 - [ ] Add training code and scripts.
