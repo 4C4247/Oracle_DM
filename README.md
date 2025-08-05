@@ -29,6 +29,13 @@ conda activate OBSR
 ## Install the required packages
 pip install -r requirements.txt
 
+## 📢Regarding the function of each file
+🌟The files in the IDM folder ensure the framework of our project.
+
+🌟The files in the MoM folder and the utilities folder are the core of the stroke extraction module's operation.
+
+🌟The files in the models folder are the main body of our model.
+
 ## TODO
 - [x] Write a readme file for the project (continuously updated.....)
 - [ ] Add some details and supplementary materials.
