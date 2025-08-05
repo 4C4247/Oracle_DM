@@ -48,6 +48,8 @@ advantages over the existing super-resolution methods in many aspects. Compared 
 providing a new paradigm for digital protection in Oracle Bone Inscriptions and promoting the deep application of deep learning technology in the field of
 cultural heritage.
 
+## Visual effect preview
+![OBSR](Repo/Preview.png)
 
 
 
