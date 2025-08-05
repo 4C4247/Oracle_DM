@@ -9,11 +9,13 @@
 <h2>How To Start？</h2>
 Dependencies and Installation
 
+In the project, we simplified the naming of Oracle_DM and named it OBSR
+
 - Pytorch >= 1.7.0
 - CUDA >= 11.0
 
 # git clone this repository
-git clone https://github.com/4C4247/OBSR.git
+git clone https://github.com/4C4247/Oracle_DM.git
 
 cd OBSR
 
