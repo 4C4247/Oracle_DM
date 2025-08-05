@@ -26,12 +26,12 @@ conda activate OBSR
 pip install -r requirements.txt
 
 ## TODO
-- [ ] Attach the detailed implementation and supplementary material.
-- [ ] Add inference code and checkpoints for blind text image SR.
+- [ ] Add some details and supplementary materials.
+- [ ] Add inference scripts and checkpoint files.
 - [ ] Add training code and scripts.
 
 ## 🔎 Overview of OBSR
-![OBSR]()
+![OBSR](Repo/entire.jpg)
 
 <h4>Abstract</h4>
 Oracle Bone Inscriptions is the core carrier of Chinese civilization. Super-resolution reconstruction ofOracle Bone Inscriptions images
