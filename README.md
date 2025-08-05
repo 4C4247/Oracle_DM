@@ -6,7 +6,8 @@
 | [Yihang Li]<sup>3</sup>
 | [Lu Yu]<sup>3</sup>
 
-
+## 💬 At the beginning
+Before starting to try, please read the following content
 
 #  🛠️ How To Start？
 ## Dependencies and Installation
@@ -15,7 +16,7 @@ In the project, we simplified the naming of Oracle_DM and named it OBSR
 
 - Pytorch >= 1.7.0
 - CUDA >= 11.0
-
+```
 ## Git clone this repository
 git clone https://github.com/4C4247/Oracle_DM.git
 
@@ -25,10 +26,11 @@ cd OBSR
 conda create -n OBSR python=3.8
 
 conda activate OBSR
-
+```
 ## Install the required packages
+```
 pip install -r requirements.txt
-
+```
 ## 📢Regarding the function of each file
 🌟The files in the IDM folder ensure the framework of our project.
 
@@ -36,11 +38,35 @@ pip install -r requirements.txt
 
 🌟The files in the models folder are the main body of our model.
 
-## TODO
-- [x] Write a readme file for the project (continuously updated.....)
-- [ ] Add some details and supplementary materials.
-- [ ] Add inference scripts and checkpoint files.
-- [ ] Add training code and scripts.
+🌟The train folder contains the scripts required for two-stage model training.
+
+🌟The checkpoins folder contains pretrained models.
+
+## How to train?
+ ❗ Just modify the configuration file as needed, and then run different training scripts to start training models with different functions.
+
+If you need to train the stroke extraction model, select [train_stroke_extractor.py](Train/train_stroke_extractor.py) in the Train folder.
+```
+python train_stroke_extractor.py
+```
+If you need to train the diffusion model, select [train_two_dage_oracle_tsr.py](Train/train_two_stage_oracle_tsr.py) in the Train folder.
+```
+python train_two_stage_oracle_tsr.py
+```
+
+## How to inference?
+ ❗ Enter the image to be tested, then configure and run the script in the [Inference](Inference/inference.py) folder according to the script content.
+ ```
+ python inference.py
+ ```
+
+## Pretrained Models
+The pretrained model can be downloaded here[Google Drive](https://drive.google.com/drive/my-drive)
+
+The two models correspond to the diffusion model and stroke extraction model respectively. Simply place them in the correct position to run normally!
+
+## Dataset
+The images used in our experiment are all from this [dataset](https://drive.google.com/drive/my-drive) and have been processed using different methods.
 
 ## 🔎 Overview of OBSR
 ![OBSR](Repo/entire.jpg)
